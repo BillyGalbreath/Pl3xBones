@@ -1,0 +1,11 @@
+[{
+  "modid": "bones",
+  "name": "Bones",
+  "description": "Bone armor. Need I say more",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["BillyGalbreath"],
+  "logoFile": "assets/logo.png",
+  "url": "http://pl3x.net/bones",
+  "updateJSON": "http://pl3x.net/versions/bones.json"
+}]

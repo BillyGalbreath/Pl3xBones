@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "bones:bone_chestplate"
+    },
+    "title": "The Walking Dead",
+    "description": "Collect a full set of bone armor"
+  },
+  "parent": "minecraft:story/shiny_gear",
+  "criteria": {
+    "bone_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bones:bone_helmet"
+          },
+          {
+            "item": "bones:bone_chestplate"
+          },
+          {
+            "item": "bones:bone_leggings"
+          },
+          {
+            "item": "bones:bone_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bone_armor"
+    ]
+  ]
+}
